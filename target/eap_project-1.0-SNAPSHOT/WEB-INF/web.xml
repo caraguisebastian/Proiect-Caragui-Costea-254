@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <servlet>
+        <servlet-name>HelloServlet</servlet-name>
+        <servlet-class>main.java.Servlets.TestServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>Register</servlet-name>
+        <servlet-class>main.java.Servlets.Register</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>VerifyLogIn</servlet-name>
+        <servlet-class>main.java.Servlets.VerifyLogIn</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>Followers</servlet-name>
+        <servlet-class>main.java.Servlets.Followers</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>Following</servlet-name>
+        <servlet-class>main.java.Servlets.Following</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>SeeUsers</servlet-name>
+        <servlet-class>main.java.Servlets.SeeUsers</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>CheckUser</servlet-name>
+        <servlet-class>main.java.Servlets.CheckUser</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>Follow</servlet-name>
+        <servlet-class>main.java.Servlets.Follow</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>Conversations</servlet-name>
+        <servlet-class>main.java.Servlets.Conversations</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>GeneratingMessages</servlet-name>
+        <servlet-class>main.java.Servlets.GeneratingMessages</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>SendMessage</servlet-name>
+        <servlet-class>main.java.Servlets.SendMessage</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>PossibleToDeleteMessages</servlet-name>
+        <servlet-class>main.java.Servlets.PossibleToDeleteMessages</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>DeletingMessage</servlet-name>
+        <servlet-class>main.java.Servlets.DeletingMessage</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>PossibleToReply</servlet-name>
+        <servlet-class>main.java.Servlets.PossibleToReply</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>CreatingGroup</servlet-name>
+        <servlet-class>main.java.Servlets.CreatingGroup</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>GroupMenu</servlet-name>
+        <servlet-class>main.java.Servlets.GroupMenu</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>TotalMessages</servlet-name>
+        <servlet-class>main.java.Servlets.TotalMessages</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>MostPigeons</servlet-name>
+        <servlet-class>main.java.Servlets.MostPigeons</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>WantToReact</servlet-name>
+        <servlet-class>main.java.Servlets.WantToReact</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>AddingReact</servlet-name>
+        <servlet-class>main.java.Servlets.AddingReact</servlet-class>
+    </servlet>
+
+
+
+
+
+
+    <servlet-mapping>
+        <servlet-name>HelloServlet</servlet-name>
+        <url-pattern>/da</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>Register</servlet-name>
+        <url-pattern>/Register</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>VerifyLogIn</servlet-name>
+        <url-pattern>/VerifyLogIn</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>Followers</servlet-name>
+        <url-pattern>/Followers</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>Following</servlet-name>
+        <url-pattern>/Following</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>SeeUsers</servlet-name>
+        <url-pattern>/SeeUsers</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>CheckUser</servlet-name>
+        <url-pattern>/CheckUser</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>Follow</servlet-name>
+        <url-pattern>/Follow</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>Conversations</servlet-name>
+        <url-pattern>/Conversations</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>GeneratingMessages</servlet-name>
+        <url-pattern>/GeneratingMessages</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>SendMessage</servlet-name>
+        <url-pattern>/SendMessage</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>PossibleToDeleteMessages</servlet-name>
+        <url-pattern>/PossibleToDeleteMessages</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>DeletingMessage</servlet-name>
+        <url-pattern>/DeletingMessage</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>PossibleToReply</servlet-name>
+        <url-pattern>/PossibleToReply</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>CreatingGroup</servlet-name>
+        <url-pattern>/CreatingGroup</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>GroupMenu</servlet-name>
+        <url-pattern>/GroupMenu</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>TotalMessages</servlet-name>
+        <url-pattern>/TotalMessages</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>MostPigeons</servlet-name>
+        <url-pattern>/MostPigeons</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>WantToReact</servlet-name>
+        <url-pattern>/WantToReact</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>AddingReact</servlet-name>
+        <url-pattern>/AddingReact</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>
